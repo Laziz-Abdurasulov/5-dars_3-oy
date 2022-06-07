@@ -29,8 +29,12 @@
     list-style-type: none;
 }
 
-.menu__item:nth-child(1) > .menu__link {
+.menu__item > .menu__linkh {
     font-weight: 700; 
+    font-size: 16px;
+    line-height: 28px;
+    color: #22343D;
+    text-decoration: none;
 }
 
 .menu__items {
@@ -53,9 +57,7 @@
     color: #22343D;
     text-decoration: none;
 
-    &:active {
-        font-weight: 700; 
-    }
+    
 }
 
 .menu__button {

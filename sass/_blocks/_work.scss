@@ -1,0 +1,135 @@
+.work {
+    padding-top: 101px;
+    padding-bottom: 115px;
+}
+
+
+.work__title {
+    margin-top: 0;
+    margin-bottom: 73px;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 51px;
+    text-align: center;
+    color: #22343D;
+}
+
+.topp {
+    width: 100%;
+    max-width: 1027px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: auto;
+    margin-bottom: 100px;
+    margin-left: auto;
+}
+
+.topp__right {
+width: 100%;
+max-width: 438px;
+}
+
+.topp__span {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #22343D;
+}
+
+.topp__title {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #22343D;
+}
+
+.topp__text {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #22343D;
+}
+
+.centerr__left {
+    width: 100%;
+    max-width: 445px;
+}
+
+.bottomm__right {
+    width: 100%;
+    max-width: 438px;
+}
+
+.centerr {
+    width: 100%;
+    max-width: 1021px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: auto;
+    margin-bottom: 100px;
+    margin-left: auto;
+}
+
+.bottomm {
+    width: 100%;
+    max-width: 1026px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.work__button {
+    display: block;
+    width: 100%;
+    max-width: 224px;
+    margin-top: 78px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    background: #02897A;
+    border: 1px solid #DEDEDE;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+@include max-width(545px) {
+    .topp {
+        flex-direction: column;
+    }
+
+    .topp__left {
+        margin-bottom: 80px;
+    }
+
+    .centerr {
+        flex-direction: column-reverse;
+    }
+
+    .centerr__right {
+        margin-bottom: 69px;
+    }
+
+    .bottomm {
+        flex-direction: column;
+    }
+
+    .bottomm__left {
+        margin-bottom: 67px;
+    }
+
+    .work__button {
+        display: none;
+    }
+}

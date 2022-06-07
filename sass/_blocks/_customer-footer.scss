@@ -1,10 +1,10 @@
 
-.footer {
+.customer-footer {
     color: #22343D;
     padding-bottom: 50px;
 }
 
-.footer__logo {
+.customer-footer__logo {
   margin-bottom: 25px;
 }
   .logo-list {
@@ -51,12 +51,12 @@
   
   
   
-  .footer__form{
+  .customer-footer__form{
     max-width: 325px;
     width: 100%;
   }
   
-  .footer__form__text {
+  .customer-footer__form__text {
     display: block;
     font-weight: 500;
     font-size: 20px;
@@ -65,7 +65,7 @@
   }
   
   
-  .footer__iner {
+  .customer-footer__iner {
     display: flex;
     align-items: start;
     justify-content: space-between;
@@ -73,13 +73,13 @@
   }
   
   
-  .footer__input {
+  .customer-footer__input {
     width: 100%;
     height: 48px;
     margin-bottom: 21px;
   }
   
-  .footer__button {
+  .customer-footer__button {
     padding: 8px 15px;
     color: #fff;
     background-color: #02897A;
@@ -119,7 +119,7 @@
   
   @media only screen  and (max-width:769px) {
     
-    .footer__iner {
+    .customer-footer__iner {
       flex-direction: column;
       text-align: center;
       align-items: center;
@@ -134,8 +134,8 @@
       display: block;
       text-align: center;
     }
+}
     
     
     
     
-  }
