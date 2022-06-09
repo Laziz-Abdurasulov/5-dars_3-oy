@@ -1,0 +1,154 @@
+.resources-hero__inner {
+    width: 100%;
+    max-width: 1122px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.resources-hero__left {
+    width: 100%;
+    max-width: 535px;
+}
+
+.resources-hero__title {
+    margin-top: 0;
+    margin-bottom: 24px;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 149%;
+    letter-spacing: -0.03em;
+    color: #22343D;
+}
+
+.resources-hero__text {
+    margin-bottom: 24px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    letter-spacing: -0.03em;
+    color: #22343D;
+}
+
+.resources-hero__lable {
+    position: relative;
+    
+}
+
+.resources-hero__input {
+    width: 100%;
+    max-width: 470px;
+    margin-bottom: 39px;
+    padding-top: 25px;
+    padding-right: 264px;
+    padding-bottom: 25px;
+    padding-left: 27px;
+    border: 1px solid #EAEAEA;
+    border-radius: 100px;
+}
+
+.resources-hero__input::placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: -0.03em;
+    color: #22343D;
+}
+
+.resources-hero__button {
+    position: absolute;
+    top: 15px;
+    right: 8px;
+    width: 100%;
+    max-width: 117px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #02897A;
+    border: none;
+    border-radius: 100px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.resources-hero__span {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-left: 130px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #22343D;
+    
+    &::before {
+        position: absolute;
+        left: 0;
+        width: 121px;
+        height: 55px;
+        background-image: url("../images/resources-hero-3img.png");
+        content: '';
+    }
+}
+
+.resources-hero__green {
+    color: #02897A;
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+    
+    @include max-width(769px) {
+        .resources-hero__inner {
+            text-align: center;
+            flex-direction: column;
+        }
+        
+        .resources-hero__left {
+            margin-right: auto;
+            margin-bottom: 87px;
+            margin-left: auto;
+        }
+        
+        .resources-hero__right {
+            position: relative;
+            margin-right: auto;
+            margin-left: auto; 
+        }
+    }
+    
+    .resources-hero__span {
+        margin-left: 30px;
+    }
+    
+    @include max-width(415px) {
+        
+        .resources-hero__span {
+            margin-left: 0;
+        } 
+        
+        .resources-hero__pic {
+            display: none;
+        }
+        
+        .resources-hero__right {
+            position: relative;
+            width: 359px;
+            margin-bottom: 246px;
+            &::after {
+                position: absolute;
+                left: 0;
+                width: 359px;
+                height: 263px;
+                background-image: url("../images/SCREEN-MASK.png");
+                content: '';
+            }
+        }
+    }
+} 

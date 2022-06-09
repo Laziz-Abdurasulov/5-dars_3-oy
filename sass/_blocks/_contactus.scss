@@ -1,0 +1,220 @@
+.contactus__inner {
+    width: 100%;
+    max-width: 871px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.contactus__up {
+    width: 100%;
+    max-width: 310px;
+    margin-right: auto;
+    margin-bottom: 65px;
+    margin-left: auto;
+    text-align: center;
+}
+
+.contactus__title {
+    margin-top: 0;
+    margin-bottom: 27px;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+}
+
+.contactus__subtitle {
+    margin-bottom: 0;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #374754;
+}
+
+.contactus__down {
+    margin-right: auto;
+    margin-bottom: 66px;
+    margin-left: auto;
+    text-align: center;
+}
+
+.logo-lists {
+    width: 100%;
+    max-width: 193px;
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.send {
+    width: 100%;
+    max-width: 868px;
+    margin-top: 60px;
+    margin-bottom: 150px;
+    padding-top: 52px;
+    padding-right: 50px;
+    padding-bottom: 52px;
+    padding-left: 50px;
+    text-align: start;
+    background-color: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 20px;
+}
+
+.send__title {
+    margin-top: 0;
+    margin-bottom: 45px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+    text-align: center;
+}
+
+.send__text {
+    width: 100%;
+    max-width: 768px;
+    margin-bottom: 45px;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    padding-left: 20px;
+    background-color: #F5F5F5;
+    border: 1px solid #E8E8E8;
+    border-radius: 39px;
+    
+    &::placeholder {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 16px;
+        letter-spacing: 0.1px;
+        color: #22343D
+    }
+}
+
+.send__email {
+    width: 100%;
+    max-width: 768px;
+    margin-bottom: 45px;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    padding-left: 20px;
+    background-color: #F5F5F5;
+    border: 1px solid #E8E8E8;
+    border-radius: 39px;
+    
+    &::placeholder {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 16px;
+        letter-spacing: 0.1px;
+        color: #22343D
+    }
+}
+
+.send__message {
+    width: 100%;
+    max-width: 768px;
+    margin-bottom: 45px;
+    padding-top: 23px;
+    padding-bottom: 154px;
+    padding-left: 20px;
+    resize: none;
+    background-color: #F5F5F5;
+    border: 1px solid #E8E8E8;
+    
+    &::placeholder {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 16px;
+        letter-spacing: 0.1px;
+        color: #22343D
+    }
+}
+
+.send__button {
+    width: 100%;
+    max-width: 145px;  
+    margin-right: auto;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    background: #02897A;
+    border: none;
+    border-radius: 35px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+
+.logo-list__inst {
+    background-color: #EDFFFC;
+    color: #EDFFFC;
+}
+
+.logo-list__face {
+    background-color: #EDFFFC;
+    color: #EDFFFC;
+}
+
+.logo-list__twit {
+    background-color: #EDFFFC;
+    color: #EDFFFC;
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) {
+
+    @include max-width(415px) {
+        .send {
+            width: 100%;
+            max-width: 344px;
+            border: none;
+            padding: 0;
+        }
+
+        .send__text {
+            width: 100%;
+            max-width: 344px;
+        }
+
+        .send__email {
+            width: 100%;
+            max-width: 344px;
+        }
+
+        .send__message {
+            width: 100%;
+            max-width: 344px;
+        }
+
+        .contactus__inner {
+            width: 100%;
+            max-width: 362px;
+           
+        }
+
+        
+
+        .logo-lists {
+            flex-direction: row-reverse;
+        }
+    }
+}
+
+
+
